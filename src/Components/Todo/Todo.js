@@ -34,8 +34,6 @@ class Todo extends Component {
 
     handleNameChange(newName) {
         const {id} = this.props;
-
-
         if (newName.trim().length) {
             const { name } = this.props
             if ( newName !== name) {

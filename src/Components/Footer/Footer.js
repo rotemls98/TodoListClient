@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import FilterButton from "./FilterButton";
-import { SHOW_STATE} from "./TodoListContainer";
+import FilterButton from "../FilterButton/FilterButton";
+import { SHOW_STATE} from "../TodoList/TodoListContainer";
 
 
 

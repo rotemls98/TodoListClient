@@ -1,9 +1,9 @@
 import React, {Component, Fragment} from 'react';
-import {addTodo, deleteTodo, getTodos, updateTodo} from "../TodoRequests/TodoRequests";
+import {addTodo, deleteTodo, getTodos, updateTodo} from "../../TodoRequests/TodoRequests";
 import TodoList from "./TodoList";
-import AddTodo from "./AddTodo";
-import Footer from "./Footer";
-import Busy from "./Busy";
+import AddTodo from "../AddTodo/AddTodo";
+import Footer from "../Footer/Footer";
+import Busy from "../Busy/Busy";
 
 export const SHOW_STATE = {
     ALL: 1,
