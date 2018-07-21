@@ -16,7 +16,6 @@ class AddTodo extends Component {
 
         this.handleChange = this.handleChange.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
-        this.hanldeAddTodo = this.hanldeAddTodo.bind(this);
     }
 
     hanldeAddTodo(value) {
